@@ -58,6 +58,12 @@ section h3.section-subheading {
 }
 
 @media screen and (min-width: 0px) and (max-width: 950px) {
+	header.masthead .intro-image {
+		margin: auto;
+		width: 50%;
+		padding-top: 250px;
+		padding-bottom: 299px;
+    }
 
 	.company-info{
 		display: none;
