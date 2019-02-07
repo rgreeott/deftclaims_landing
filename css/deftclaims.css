@@ -63,6 +63,7 @@ section h3.section-subheading {
 		width: 50%;
 		padding-top: 250px;
 		padding-bottom: 299px;
+		
     }
 
 	.company-info{
@@ -73,6 +74,11 @@ section h3.section-subheading {
 	}
 }
 
+header.masthead .intro-logo {
+	background-color: rgba(34, 34, 34, 0.5);
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
 .company-info{
   width: 150px;
   height: 20px;
