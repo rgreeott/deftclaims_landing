@@ -59,10 +59,8 @@ section h3.section-subheading {
 
 @media screen and (min-width: 0px) and (max-width: 950px) {
 	header.masthead .intro-image {
-		margin: auto;
-		width: 50%;
 		padding-top: 250px;
-		padding-bottom: 299px;
+		padding-bottom: 20px;
 		
     }
 
@@ -72,12 +70,41 @@ section h3.section-subheading {
 	.address-info{
 		display: none;
 	}
+	
+	header.masthead .intro-text {
+		margin-top: 20px;
+		font-size: 25px;
+		font-style: italic;
+		line-height: 30px;
+		margin-bottom: 25px;
+		font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-sub-text {
+		font-size: 30px;
+		font-style: italic;
+		line-height: 40px;
+		margin-bottom: 25px;
+		font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	}
+    header.masthead .intro-text .intro-heading {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 75px;
+		margin-bottom: 20px;
+		color: black;
+		font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
 }
 
 header.masthead .intro-logo {
 	background-color: rgba(34, 34, 34, 0.5);
 	border-radius: 15px;
 	margin-bottom: 20px;
+	width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .company-info{
   width: 150px;
@@ -236,9 +263,9 @@ header.masthead {
 
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   font-style: italic;
-  line-height: 22px;
+  line-height: 30px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -258,14 +285,13 @@ section {
 
 
   header.masthead .intro-image {
-    margin: auto;
-    width: 50%;
     padding-top: 250px;
-    padding-bottom: 299px;
+    padding-bottom: 10px;
   }
+	
   header.masthead .intro-text {
-    margin-top: 150px;
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 40px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
